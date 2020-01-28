@@ -1,0 +1,45 @@
+body
+{
+  background-color: rgb(35, 30, 30);
+}
+
+h1
+{
+  color: yellow;
+	font-family: "Courier New";
+}
+
+h2
+{
+	color: yellow;
+	font-family: "Courier New";
+}
+
+h3
+{
+	color: yellow;
+	font-family: "Courier New";
+}
+
+h4
+{
+	color: yellow;
+	font-family: "Courier New";
+}
+
+p{
+	color: lightblue;
+	font-family: "Courier New";
+}
+
+ul
+{
+	color: lightblue;
+	font-family: "Courier New";
+}
+
+li
+{
+	color: yellow;
+	font-family: "Courier New";
+}
