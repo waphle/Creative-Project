@@ -43,3 +43,11 @@ li
 	color: yellow;
 	font-family: "Courier New";
 }
+
+a:link {
+  background-color: yellow;
+}
+
+a:visited {
+  color: blue;
+}
