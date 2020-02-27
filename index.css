@@ -1,57 +1,70 @@
 /* index.html CSS*/
 body
 {
-  background-image= url("");
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-h1
+#header
 {
-  color: yellow;
-	font-family: "Courier New";
+  color: black;
+  font-size: 35pt;
+  text-align: center;
 }
 
-h2
+#headerDesc
 {
-	color: yellow;
-	font-family: "Courier New";
+  text-align: center;
 }
 
-h3
+#stuffDesc
 {
-	color: yellow;
-	font-family: "Courier New";
+  text-align: center;
 }
 
-h4
-{
-	color: yellow;
-	font-family: "Courier New";
+.divs {
+  padding: 5px
 }
 
-p{
-	color: lightblue;
-	font-family: "Courier New";
+#artwork {
+  display: flex;
 }
 
-ul
-{
-	color: lightblue;
-	font-family: "Courier New";
+#photography {
+  flex: 1;
 }
 
-li
-{
-	color: yellow;
-	font-family: "Courier New";
+#email {
+  flex: 1;
 }
 
-a:link {
-  background-color: yellow;
+#instagram {
+  flex: 1;
 }
 
-a:visited {
-  color: blue;
+.flexContainer {
+  display: block;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
 }
 
+.flexContainer p { /*FlexBox styling*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  width: 100px;
+  height: 55px;
+  background-color: red;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 10pt;
+}
+/* art.html CSS /
 
-/* photography.html CSS*/
+/* photography.html CSS */
