@@ -2,30 +2,38 @@
 body
 {
   background-image: url("images/background.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  position: relative;
+}
+
+@font-face {
+  font-family: "ETH";
+  src: url("fonts/eth/ETH.ttf");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("fonts/josefin-sans/JosefinSans-Regular");
 }
 
 #header
 {
+  font-family: "ETH";
   color: black;
   font-size: 35pt;
   text-align: center;
 }
 
-#headerDesc
-{
+#headerDesc {
+  font-family: "Josefin Sans";
   text-align: center;
 }
 
-#stuffDesc
-{
+#stuffDesc {
+  font-family: "ETH";
   text-align: center;
-}
-
-.divs {
-  padding: 5px
 }
 
 #artwork {
@@ -44,15 +52,19 @@ body
   flex: 1;
 }
 
+.row {
+  padding: 5px
+}
+
 .flexContainer {
   display: block;
   align-items: center;
-  padding: 10px;
   text-align: center;
   margin: 20px;
+  padding: 10px;
 }
 
-.flexContainer p { /*FlexBox styling*/
+.flexContainer span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +77,8 @@ body
   font-family: "Josefin Sans";
   font-size: 10pt;
 }
+
+
 /* art.html CSS /
 
 /* photography.html CSS */
