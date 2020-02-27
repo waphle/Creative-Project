@@ -74,8 +74,40 @@ body
   font-size: 20pt;
 }
 
+.aboutMe{
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 800px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}
 
+.aboutMe img { /* Portrait of me */
+  float: left;
+  vertical-align: middle;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
 
+.aboutMe span { /* Desc. box about me */
+  display: block;
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: #E8DFDC;
+}
+
+#Validators {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: none;
+}
+
+.Style {
+  opacity: 0.5;
+}
 
 /* art.html CSS /
 
