@@ -1,4 +1,4 @@
-/* index.html CSS*/
+/***** index.html CSS *****/
 @font-face {
   font-family: "ETH";
   src: url("fonts/eth/ETH.ttf");
@@ -70,13 +70,15 @@ body
   align-items: center;
   text-align: center;
   font-family: "Josefin Sans";
-  color: "white";
+  color: white;
   font-size: 20pt;
 }
 
 .aboutMe{
+  display: block;
   margin-top: 50px;
-  margin-left: 250px;
+  margin-left: auto;
+  margin-right: auto;
   width: 800px;
   position: relative;
   overflow: hidden;
@@ -102,13 +104,24 @@ body
   position: fixed;
   right: 0;
   bottom: 0;
-  margin: none;
 }
 
 .Style {
   opacity: 0.5;
 }
 
-/* art.html CSS /
 
-/* photography.html CSS */
+/***** art.html CSS *****/
+#homeButton {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+
+/***** photography.html CSS *****/
+#homeButton {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
