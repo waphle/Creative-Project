@@ -110,15 +110,15 @@ body
 }
 
 #indexFooter {
-  position: fixed;
-  display: table;
-  margin: 0 auto;
-  bottom: 10px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
   color: white;
   font-family: "Josefin Sans";
-  font-size: 8pt;
+  font-size: 10pt;
 }
+
 #bckSrc {
   color: #0BFFF9;
 }
