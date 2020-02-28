@@ -115,13 +115,90 @@ body
 #homeButton {
   position: absolute;
   top: 100px;
-  left: 100px;
+  left: 50px;
 }
+
+#header {
+  font-family: "ETH";
+  color: black;
+  font-size: 35pt;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gallery {
+  flex: 33.33%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  font-family: "Josefin Sans";
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
 
 
 /***** photography.html CSS *****/
 #homeButton {
   position: absolute;
-  top: 100px;
-  left: 100px;
+  top: 50px;
+  left: 50px;
+}
+
+#header {
+  font-family: "ETH";
+  color: black;
+  font-size: 35pt;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gallery {
+  flex: 33.33%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  font-family: "Josefin Sans";
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
