@@ -9,8 +9,7 @@
   src: url("fonts/josefin-sans/JosefinSans-Regular");
 }
 
-body
-{
+body {
   background-image: url("images/background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -29,6 +28,7 @@ body
 #headerDesc {
   font-family: "Josefin Sans";
   text-align: center;
+  font-size: 12pt;
 }
 
 #home {
@@ -97,8 +97,8 @@ body
   float: left;
   vertical-align: middle;
   padding-right: 10px;
-  width: 340px;
-  height: 340px;
+  width: 300px;
+  height: 300px;
   border-radius: 20px;
 }
 
@@ -106,6 +106,7 @@ body
   display: block;
   text-align: left;
   font-family: "Josefin Sans";
+  font-size: 11.5pt;
   color: #E8DFDC;
 }
 
@@ -113,7 +114,7 @@ body
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 140px;
+  margin-top: 170px;
   color: white;
   font-family: "Josefin Sans";
   font-size: 10pt;
@@ -134,7 +135,7 @@ body
 }
 
 
-/***** art.html CSS *****/
+/********** art.html CSS **********/
 #header {
   font-family: "ETH";
   color: black;
@@ -174,9 +175,7 @@ body
   color: white;
 }
 
-
-
-/***** photography.html CSS *****/
+/********** photography.html CSS **********/
 #header {
   font-family: "ETH";
   color: black;
