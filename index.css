@@ -88,14 +88,15 @@ body
 .aboutMe img { /* Portrait of me */
   float: left;
   vertical-align: middle;
-  width: 350px;
-  height: 350px;
+  padding-right: 10px;
+  width: 340px;
+  height: 340px;
   border-radius: 20px;
 }
 
 .aboutMe span { /* Desc. box about me */
   display: block;
-  text-align: center;
+  text-align: left;
   font-family: "Josefin Sans";
   color: #E8DFDC;
 }
