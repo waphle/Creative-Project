@@ -127,12 +127,6 @@ body
 
 
 /***** art.html CSS *****/
-#homeButton {
-  position: absolute;
-  top: 100px;
-  left: 50px;
-}
-
 #header {
   font-family: "ETH";
   color: black;
@@ -149,7 +143,8 @@ body
 
 .gallery {
   flex: 33.33%;
-  padding: 20px;
+  padding: 50px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 180px;
@@ -174,12 +169,6 @@ body
 
 
 /***** photography.html CSS *****/
-#homeButton {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-}
-
 #header {
   font-family: "ETH";
   color: black;
@@ -197,6 +186,7 @@ body
 .gallery {
   flex: 33.33%;
   padding: 20px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 180px;
