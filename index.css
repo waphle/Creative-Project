@@ -120,10 +120,11 @@ body {
 }
 
 #indexFooter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 150px;
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  text-align: center;
+  /* margin-top: 150px; */
   color: white;
   font-family: "Josefin Sans";
   font-size: 10pt;
