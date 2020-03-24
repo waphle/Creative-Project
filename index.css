@@ -90,7 +90,7 @@ body {
   font-size: 20pt;
 }
 
-.aboutMe{
+.aboutMe {
   display: block;
   margin-top: 75px;
   margin-left: auto;
@@ -111,6 +111,12 @@ body {
   border-radius: 20px;
 }
 
+.aboutMe img:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+  display: block;
+}
+
 .aboutMe span { /* Desc. box about me */
   display: block;
   text-align: left;
@@ -119,10 +125,20 @@ body {
   color: #E8DFDC;
 }
 
+#demo {
+  display: block;
+  text-align: left;
+  font-family: "Josefin Sans";
+  font-size: 10pt;
+  color: #E8DFDC;
+}
+
+
 #indexFooter {
   position: absolute;
   bottom: 0;
   width: 95%;
+  margin-bottom: 10px;
   text-align: center;
   color: white;
   font-family: "Josefin Sans";
