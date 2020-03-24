@@ -6,12 +6,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <title> Jeff Zhang's Portfolio </title>
       <link rel="stylesheet" type="text/css" href="index.css">
-      <script src="script.js"></script>
+      <script async src="script.js"></script> <!-- async allows CSS animations to work -->
   </head>
 
   <body>
     <h1 id="header"> <b> Jeff Zhang's Portfolio </b> </h1>
-    <p id="headerDesc"> "Not all who wander are lost." </p>
+    <p id="headerDesc"> "Not all who wander are lost." ~ J.R.R. Tolkien </p>
 
     <div class="flexContainer">
       <div id="infoBox">
@@ -31,7 +31,7 @@
           <span><a href="https://www.instagram.com/jeff._.zhang/?hl=en"> Instagram </a></span>
         </div>
 
-        <div class="row" id="email">
+        <div class="row" id="email" onclick="emailFunction()">
           <span><a href="mailto:jz1766a@student.american.edu"> Email </a></span>
         </div>
       </div>
