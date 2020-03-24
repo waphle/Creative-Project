@@ -69,6 +69,7 @@ body {
 
 .row:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
 }
 
 .flexContainer {
@@ -86,7 +87,7 @@ body {
   align-items: center;
   text-align: center;
   font-family: "Josefin Sans";
-  color: white;
+  color: #0121B8;
   font-size: 20pt;
 }
 

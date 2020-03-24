@@ -8,3 +8,20 @@ function myFunction() {
 function emailFunction() {
   setTimeout(function(){ alert('Left click the link and choose "Copy email address" to copy my email address to your clipboard.'); }, 2000); // 2000 equals to 2 seconds
 }
+
+// HTML Linking functions
+function homeLink() {
+  location.replace("index.html")
+}
+function artLink() {
+  location.replace("art.html")
+}
+function photoLink() {
+  location.replace("photography.html")
+}
+function devArtLink() {
+  location.replace("https://www.deviantart.com/waphlebruv")
+}
+function instaLink() {
+  location.replace("https://www.instagram.com/jeffzhang._.photography/?hl=en")
+}
