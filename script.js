@@ -6,7 +6,7 @@ function myFunction() {
 
 // Timer alert message for email
 function emailFunction() {
-  setTimeout(function(){ alert('Left click the link and choose "Copy email address" to copy my email address to your clipboard.'); }, 2000); // 2000 equals to 2 seconds
+  setTimeout(function(){ alert('To copy my email address, left click the link and choose "Copy email address."'); }, 2000); // 2000 equals to 2 seconds
 }
 
 // HTML Linking functions
