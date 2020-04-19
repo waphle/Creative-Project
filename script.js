@@ -25,3 +25,38 @@ function devArtLink() {
 function instaLink() {
   location.replace("https://www.instagram.com/jeffzhang._.photography/?hl=en")
 }
+
+// Server stuff
+function reqListener() {
+  car data = JSON.parse(this.responseText);
+  console.log(data);
+}
+
+function reqError(err) {
+  console.log('Fetch Error :-S', err);
+}
+
+var oReq = new XMLHttpRequest();
+oReq.onload = reqListener;
+oReq.onerror = reqError;
+oReq.open('get','./api/some.json', true);
+oReq.send();
+
+fetch('./api/some.json')
+  .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.json().then(function(data) {
+        console.log(data);
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
